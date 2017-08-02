@@ -1,0 +1,20 @@
+name: InvisiblePlayers
+main: com.danielvd.InvisiblePlayers.InvisiblePlayers
+version: 1.0.0
+commands:
+  ip:
+    description: Main IP command
+    usage: /ip
+  InvisiblePlayers:
+    description: Main InvisiblePlayers command
+    usage: /InvisiblePlayers
+permissions:
+  InvisiblePlayers.main:
+    description: Permission to show available commands
+    default: op
+  InvisiblePlayers.invisible:
+    description: Permission to be able to hide/show yourself
+    default: op
+  InvisiblePlayers.targetInvisible:
+    description: Permission to be able to hide/show other players
+    default: op
